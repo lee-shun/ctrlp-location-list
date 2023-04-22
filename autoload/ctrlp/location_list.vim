@@ -77,3 +77,7 @@ endfunction
 function! ctrlp#location_list#exit()
   unlet! s:clmode s:bufnr
 endfunction
+
+fu! ctrlp#quickfix#id()
+	retu s:id
+endf
